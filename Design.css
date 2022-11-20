@@ -1,0 +1,39 @@
+* { box-sizing: :border-box;}
+body {
+    background-color: #EAEAEA;
+    color: #666666;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h1  {
+    text-align: center;
+    margin: auto;
+}
+
+nav {
+    font-weight: bold;
+    padding-top: .5em;
+    padding-right: .5em;
+    padding-bottom: .5em;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+header {
+    text-decoration: none;
+    list-style-type: none;
+    height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
