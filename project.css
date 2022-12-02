@@ -29,6 +29,11 @@ nav {
     box-shadow: 0 10px 15px rgba(255, 255, 255, 0.1);
     font-weight: bold;
     word-spacing: 200px;
+    position: sticky;
+    top: 0px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
 }
 
 nav a {
@@ -105,12 +110,12 @@ input[type=text], select, textarea {
 
 
   input[type=submit]:hover {
-    background-color: #3700ff;
+    background-color: grey;
   }
 
   .container {
     border-radius: 5px;
-    background: linear-gradient(80deg, #1C1C1C 10%, #051df5 360%);
+    background: linear-gradient(80deg, grey 100%, grey 360%);
     padding: 30px;
     color: white; 
   }
@@ -124,3 +129,4 @@ footer {
     margin-left: 0px;
     margin-top: 500px;
 }
+
