@@ -23,9 +23,37 @@ h2 {
     padding-left: 200px;
 }
 
-p {
-    padding-left: 200px;
+.Coding {
+    width: 25%;
 }
+.Fitness {
+    width: 40%;
+}
+
+.Future {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    border: 1px solid #3399CC;
+    width: 90%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+th {
+    padding: 5px;
+    border: 1px solid grey;
+    background-color: grey;
+}
+
 nav {
     height: 60px;
     background: grey;
@@ -82,11 +110,13 @@ nav ul li:hover > ul{
 
 dl {
     padding-left: 200px;
+    font-size: 20px;
 }
 
 dt {
     font-size: 25px;
     font-weight: bold;
+    font-size: 30px;
 }
 
 input[type=text], select, textarea {
