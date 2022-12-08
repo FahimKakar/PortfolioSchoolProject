@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: #ced4dc;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -8,13 +8,12 @@ header {
     list-style: none;
     font-size: 50px;
     text-align: center;
-    background-color:grey;
+    background-color: #ced4da;
     font-weight: bold;
     color: white;
 }
 
 h1 {
-    padding-top: 200px;
     padding-left: 200px;
     font-size: 50px;
 }
@@ -30,9 +29,6 @@ h2 {
     width: 40%;
 }
 
-.Future {
-    text-align: center;
-}
 
 table {
     text-align: center;
@@ -44,19 +40,19 @@ table {
 
 td {
     padding: 5px;
-    border: 1px solid grey;
+    border: 1px solid #ced4dc;
     text-align: center;
 }
 
 th {
     padding: 5px;
-    border: 1px solid grey;
-    background-color: grey;
+    border: 1px solid #ced4dc;
+    background-color: #ced4dc;
 }
 
 nav {
     height: 60px;
-    background: grey;
+    background: #ced4da;
     box-shadow: 0 10px 15px rgba(255, 255, 255, 0.1);
     font-weight: bold;
     word-spacing: 200px;
@@ -65,6 +61,7 @@ nav {
     padding: 10px;
     text-align: center;
     width: 100%;
+    z-index: 999999;
 }
 
 nav a {
@@ -78,23 +75,25 @@ nav ul {
 }
 
 nav ul li {
-    background: grey;
+    background: #ced4da;
     position: relative;
     list-style: none;
     display: inline-block;
+    padding: 0 15px;
+    width: 70px;
 }
 
 nav ul li a{
     display: block;
-    padding: 0 15px;
     color: white;
     text-decoration: none;
     line-height: 60px;
     font-size: 20px;
+    transition: 0.25s ease-in-out;
 }
 
 nav ul li a:hover{
-    background: grey;
+    opacity: 0.7;
 }
 
 nav ul ul{
@@ -119,10 +118,10 @@ dt {
     font-size: 30px;
 }
 
-input[type=text], select, textarea {
+input[type=text],input[type=email], select, textarea {
     width: 100%; 
     padding: 12px; 
-    border: 1px solid #ccc;
+    border: 1px solid #ced4dc;
     border-radius: 4px; 
     box-sizing: border-box; 
     margin-top: 6px; 
@@ -143,14 +142,14 @@ input[type=text], select, textarea {
 
 
   input[type=submit]:hover {
-    background-color: grey;
+    background-color: #ced4dc;
   }
 
   .container {
     border-radius: 5px;
-    background: linear-gradient(80deg, grey 100%, grey 360%);
+    background: linear-gradient(80deg, #ced4dc 100%, #ced4dc 360%);
     padding: 30px;
-    color: white; 
+    color: white;
   }
 
 footer {
@@ -158,8 +157,52 @@ footer {
     font-style: italic;
     text-align: center;
     padding: 1em;
-    background-color:grey;
+    background-color:#ced4dc;
     margin-left: 0px;
     margin-top: 500px;
 }
 
+.fitnessimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+}
+div img {
+    width: 400px;
+    height: 300px;
+    border: 2px solid #3399CC;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #3399CC;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+
+}
+
+div img:hover {
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+div video {
+    width: 400px;
+    height: 300px;
+    border: 2px solid #3399CC;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #3399CC;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+
+.sidebyside {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.sidebyside > * {
+    flex-basis: 100%;
+}
