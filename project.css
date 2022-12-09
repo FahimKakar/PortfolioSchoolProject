@@ -22,6 +22,10 @@ h2 {
     padding-left: 200px;
 }
 
+summary {
+    font-size: 32pt;
+}
+
 .Fitness {
     width: 40%;
 }
@@ -104,15 +108,13 @@ nav ul li:hover > ul{
     display: block;
 }
 
-dl {
+details {
     padding-left: 200px;
-    font-size: 20px;
 }
 
-dt {
+p {
     font-size: 25px;
     font-weight: bold;
-    font-size: 30px;
 }
 
 input[type=text],input[type=email], select, textarea {
@@ -173,7 +175,6 @@ div img {
     border: 2px solid grey;
     border-radius: 13px;
     box-shadow: 4px 7px 7px 0px grey;
-    cursor: pointer;
     margin: 10px;
     transition: 400ms;
 }
@@ -209,9 +210,55 @@ div video {
     width: 900px;
     height: 900px;
     border-radius: 13px;
-    cursor: pointer;
     margin: 10px;
     transition: 400ms;
     padding-left: 750px;
+    
 }
 
+#gallery {
+                position: relative;
+            }
+
+            figure {
+                position: absolute;
+                top: 8px;
+                left: 280px;
+                text-align: center;
+                opacity: 0.25;
+            }
+
+            #gallery ul {
+                list-style-type: none;
+            }
+
+            #gallery li {
+                display: inline;
+                float: left;
+                padding: 10px;
+            }
+
+            #gallery img {
+                border-style: none;
+            }
+
+            #gallery a {
+                color: #eaeaea;
+                text-decoration: none;
+                font-style: italic;
+            }
+
+            #gallery span {
+                position: absolute;
+                left: -1000px;
+                opacity: 0;
+                transition: opacity 3s ease-in-out;
+            }
+
+            #gallery a:hover span {
+                position: absolute;
+                top: 8px;
+                left: 320px;
+                text-align: center;
+                opacity: 1;
+            }
