@@ -22,9 +22,6 @@ h2 {
     padding-left: 200px;
 }
 
-.Coding {
-    width: 25%;
-}
 .Fitness {
     width: 40%;
 }
@@ -32,7 +29,7 @@ h2 {
 
 table {
     text-align: center;
-    border: 1px solid #3399CC;
+    border: 1px solid #ffffff;
     width: 90%;
     border-collapse: collapse;
     margin: auto;
@@ -40,20 +37,20 @@ table {
 
 td {
     padding: 5px;
-    border: 1px solid #ced4dc;
+    border: 1px solid grey;
     text-align: center;
 }
 
 th {
     padding: 5px;
-    border: 1px solid #ced4dc;
-    background-color: #ced4dc;
+    border: 1px solid grey;
+    background-color: #b5b5b5;
 }
 
 nav {
     height: 60px;
     background: #ced4da;
-    box-shadow: 0 10px 15px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 15px rgba(255, 255, 255, 0.553);
     font-weight: bold;
     word-spacing: 200px;
     position: sticky;
@@ -85,7 +82,7 @@ nav ul li {
 
 nav ul li a{
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     line-height: 60px;
     font-size: 20px;
@@ -93,7 +90,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    opacity: 0.7;
+    opacity: .4;
 }
 
 nav ul ul{
@@ -153,13 +150,13 @@ input[type=text],input[type=email], select, textarea {
   }
 
 footer {
-    font-size: .70em;
+    font-size: .90em;
     font-style: italic;
     text-align: center;
     padding: 1em;
     background-color:#ced4dc;
     margin-left: 0px;
-    margin-top: 500px;
+    margin-top: 100px;
 }
 
 .fitnessimg {
@@ -169,16 +166,16 @@ footer {
     flex-wrap: wrap;
     padding-top: 5rem;
 }
+
 div img {
     width: 400px;
     height: 300px;
-    border: 2px solid #3399CC;
+    border: 2px solid grey;
     border-radius: 13px;
-    box-shadow: 4px 7px 7px 0px #3399CC;
+    box-shadow: 4px 7px 7px 0px grey;
     cursor: pointer;
     margin: 10px;
     transition: 400ms;
-
 }
 
 div img:hover {
@@ -189,9 +186,9 @@ div img:hover {
 div video {
     width: 400px;
     height: 300px;
-    border: 2px solid #3399CC;
+    border: 2px solid grey;
     border-radius: 13px;
-    box-shadow: 4px 7px 7px 0px #3399CC;
+    box-shadow: 4px 7px 7px 0px grey;
     cursor: pointer;
     margin: 10px;
     transition: 400ms;
@@ -206,3 +203,15 @@ div video {
 .sidebyside > * {
     flex-basis: 100%;
 }
+
+
+.homeimg{
+    width: 900px;
+    height: 900px;
+    border-radius: 13px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+    padding-left: 750px;
+}
+
